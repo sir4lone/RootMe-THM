@@ -13,7 +13,7 @@ Port Scanning (Nmap)
 An initial port scan was conducted to identify active services on the target machine.
 
 ```bash
-nmap -sCV -p- --min-rate 5000 10.67.181.67 -oN nmap_initial.txt
+nmap -sCV -p- --min-rate 5000 10.67.181.67 -oN nmap_result.txt
 ```
 
 ## Open Ports:
